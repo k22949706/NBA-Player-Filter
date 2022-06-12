@@ -10,7 +10,7 @@ const connection = mysql.createConnection({
     user     : "root",
     password : "123456",
     database : "nba",
-    port     : "3301"
+    port     : "3301"  //type your mysql port
 });
 
 // const jsonParser = bodyParser.json();
