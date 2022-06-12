@@ -10,5 +10,5 @@
 2. 啟動本機端sql連線
 3. 修改app.js, importData.js, dumpData.js三個檔案的mysql connection設定
 ![image](https://user-images.githubusercontent.com/66670167/173234582-01f18de8-dad6-4fdd-89a2-0a64e2d90cf6.png)
-4. 執行importData.js 將球員資料加進資料庫
-5. 至根目錄 輸入node app.js 啟動後端伺服器
+4. ```node importData.js``` 將球員資料加進資料庫
+5. 至根目錄 輸入```node app.js``` 啟動後端伺服器
